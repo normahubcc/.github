@@ -1,0 +1,17 @@
+name: Предложение улучшения (Feature Request)
+description: Идея новой функции или доработки в CLI, MCP, SDK или Action
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую проблему решает предложение?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение
+    validations:
+      required: true

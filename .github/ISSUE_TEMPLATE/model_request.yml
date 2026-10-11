@@ -1,0 +1,22 @@
+name: Запрос новой модели (Model Request)
+description: Предложить добавление новой LLM или мультимодальной модели в каталог NormaHub
+title: "[MODEL]: "
+labels: ["model-request", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Мы регулярно расширяем каталог моделей NormaHub. Напишите, какую модель вы хотите видеть.
+  - type: input
+    id: model_name
+    attributes:
+      label: Название модели
+      placeholder: например, DeepSeek-V3, Qwen-2.5-Coder-72B, Flux.1 Pro
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Сценарий использования
+      description: Для каких задач вам нужна эта модель?
+    validations:
+      required: true

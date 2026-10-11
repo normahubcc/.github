@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Личный кабинет NormaHub
+    url: https://normahub.cc
+    about: Управление балансом, пополнение картами РФ/СБП и выпуск API-ключей
+  - name: Документация API
+    url: https://api.normahub.cc/docs
+    about: Спецификация REST API и примеры вызовов
+  - name: Каталог моделей
+    url: https://normahub.cc/models
+    about: Актуальный список моделей, тарифов и возможностей

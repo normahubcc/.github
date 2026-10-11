@@ -1,0 +1,33 @@
+name: Bug Report
+description: Сообщить об ошибке или сбое в работе инструмента
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Спасибо, что сообщаете о проблеме! Пожалуйста, укажите детали ниже.
+  - type: input
+    id: version
+    attributes:
+      label: Версия компонента
+      description: Укажите версию (например, @normahub/mcp-server@0.2.4 или normahub-cli v1.0.0)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание проблемы
+      description: Что пошло не так?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Шаги для воспроизведения
+      description: Как воспроизвести ошибку?
+  - type: textarea
+    id: logs
+    attributes:
+      label: Логи / Трассировка
+      description: Вставьте вывод терминала или текст ошибки
+      render: shell
